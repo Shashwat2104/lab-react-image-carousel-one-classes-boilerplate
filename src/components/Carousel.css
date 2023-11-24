@@ -1,1 +1,28 @@
-/* write your carousel css in this file */
+.carousel {
+  width: 80%;
+  height: 700px;
+}
+.carouselInner {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.carouselInner .left {
+  flex: 10%;
+  height: 100%;
+  place-items: center;
+}
+.carouselInner .right {
+  flex: 10%;
+  height: 100%;
+  place-items: center;
+}
+
+.carouselInner .center {
+  flex: 10%;
+  height: 100%;
+  place-items: center;
+}
